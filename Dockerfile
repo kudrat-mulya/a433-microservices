@@ -17,5 +17,5 @@ RUN npm install --production --unsafe-perm && npm run build
 EXPOSE 8080
 
 #run perintah npm start
-#CMD ["npm","start"]
-CMD npm start
+CMD ["npm", "start"]
+#CMD npm start

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #build dari dockerfile
-docker build -t item-app:v1
+docker build -t item-app:v1 .
 
 #melist docker images
 docker images
